@@ -61,8 +61,23 @@ msgstr "密码"
 msgid "Encrypt Method"
 msgstr "加密方式"
 
+msgid "VLESS Encryption"
+msgstr "VLESS 加密"
+
+msgid "Transport"
+msgstr "传输协议"
+
 msgid "Protocol"
 msgstr "传输协议"
+
+msgid "allowInsecure"
+msgstr "允许不安全连接"
+
+msgid "Concurrency"
+msgstr "最大并发连接数"
+
+msgid "If true, allowss insecure connection at TLS client, e.g., TLS server uses unverifiable certificates."
+msgstr "是否允许不安全连接。当选择时，将不会检查远端主机所提供的 TLS 证书的有效性。"
 
 msgid "Protocol param(optional)"
 msgstr "传输协议参数（可选）"
@@ -401,7 +416,10 @@ msgid "GFW List"
 msgstr "GFW列表"
 
 msgid "ShadowSocksR Plus+ Settings"
-msgstr "ShadowSocksR Plus+ 设置（支持SS/SSR/V2RAY/TROJAN/SOCKS5/TUN）"
+msgstr "ShadowSocksR Plus+ 设置"
+
+msgid "<h3>Support SS/SSR/V2RAY/TROJAN/NAIVEPROXY/SOCKS5/TUN etc.</h3>"
+msgstr "<h3>支持 SS/SSR/V2RAY/TROJAN/NAIVEPROXY/SOCKS5/TUN 等协议</h3>"
 
 msgid "Main Server"
 msgstr "主服务器"
@@ -442,8 +460,8 @@ msgstr "更新"
 msgid "Server Count"
 msgstr "服务器节点数量"
 
-msgid "IP black-and-white list"
-msgstr "黑白名单"
+msgid "Block and Allow List"
+msgstr "禁止/通行名单"
 
 msgid "WAN IP AC"
 msgstr "WAN IP访问控制"
@@ -657,3 +675,9 @@ msgstr "本机服务端"
 
 msgid "Global SOCKS5 Proxy Server"
 msgstr "SOCKS5 代理服务端（全局）"
+
+msgid "warning! Please do not reuse the port!"
+msgstr "警告！请不要重复使用端口！"
+
+msgid "Deny Domain List"
+msgstr "禁止连接的域名"
